@@ -1,0 +1,16 @@
+{
+  "name": "squaresbackground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "nodemon -e scss -x node-sass --include-path scss scss/styles.scss   css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
